@@ -7,7 +7,7 @@ def limpar_ecra():
 
 def main() -> None:
     # Definir o caminho do ficheiro 
-    caminho_ficheiro = (r"c:\Users\rober\Desktop\codigovs\aulas\lab\lab-21-05\parentes.txt")
+    caminho_ficheiro = (r"c:\Users\rafa\Desktop\codigovs\aulas\lab\lab-21-05\parentes.txt")
     
     if not os.path.exists(caminho_ficheiro):
         print(f"Erro: O ficheiro '{caminho_ficheiro}' não foi encontrado!")
